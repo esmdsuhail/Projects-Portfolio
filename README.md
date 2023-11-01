@@ -10,6 +10,11 @@
 ## [Operation Analytics and Investigating Metric Spike](https://github.com/esmdsuhail/Operation-Metric-Analytics.git)
 - As a data analyst at a major company focusing on investigating key metric changes for operational analysis
 - Two case studies were provided which were loaded into MySQL for analysis reporting root cause analysis and delivering actionable insights
+
+   ![Only charts_pages-to-jpg-0001](https://github.com/esmdsuhail/Portfolio/assets/142283402/880b21bc-f071-49b3-8cc0-363c450eb9b3)
+  
+  ![Only charts_pages-to-jpg-0002](https://github.com/esmdsuhail/Portfolio/assets/142283402/d1d07b96-41f7-426d-8301-0ceb86dd2b08)
+
 - This project demonstrates the application of advanced SQL skills which enhances operational efficiency.
 
 
@@ -18,10 +23,13 @@
 - The dataset was cleaned and restructured for analysis like genre, duration, language, director, and budget & gross earning analysis
 - A dashboard is created to provide actionable insights for the stakeholders which highlights the importance of understanding the relationship between factors and IMDB score for making informed decisions in future projects
 
+   ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/5fd22415-b37f-4a02-99cb-72b934c84557)
+
+
 ## [Bank Loan Case Study](https://github.com/esmdsuhail/Bank-Loan-Case-Study.git)
 - As a data analyst in a finance company I analyzed the loan application data to address challenges related to customer loan defaults.
 - Before performing the analysis, the dataset was cleaned and restructured by imputing missing data and deleting columns with significant missing data and also detecting outliers & data imbalances later performing variate and correlation analysis among data.
-- This project concluded Using exploratory data analysis(EDA) offering insights into loan defaults and improving company's loan approval processes.
+- This project concluded Using exploratory data analysis(EDA) offering insights into loan defaults and improving the company's loan approval processes.
 
 
 
