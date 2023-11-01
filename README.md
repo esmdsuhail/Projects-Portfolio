@@ -1,7 +1,7 @@
 # Portfolio
 
 
-## [Instagram User Analytics](#https://github.com/esmdsuhail/Instagram-User-Analytics.git)
+[Instagram User Analytics](#https://github.com/esmdsuhail/Instagram-User-Analytics.git)
 - A comprehensive overview of this project  emphasizes the role of data in shaping the user experience and driving effective marketing strategies.
 - Data analysis is done on specific tasks like identifying the oldest users, inactive users & bots, the Top 5 most used hashtags, the Winner of the photo contest, finding the best day to launch a campaign, and average user posts.
 - This project showcases my basic MySQL skills in understanding the data and performing the required analysis to summarize key findings and emphasize actionable insights.
