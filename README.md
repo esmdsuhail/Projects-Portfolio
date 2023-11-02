@@ -29,7 +29,30 @@
 ## [Bank Loan Case Study](https://github.com/esmdsuhail/Bank-Loan-Case-Study.git)
 - As a data analyst in a finance company I analyzed the loan application data to address challenges related to customer loan defaults.
 - Before performing the analysis, the dataset was cleaned and restructured by imputing missing data and deleting columns with significant missing data and also detecting outliers & data imbalances later performing variate and correlation analysis among data.
+
+  ![P_6 only charts_page-0001](https://github.com/esmdsuhail/Portfolio/assets/142283402/536d4f98-f83d-4dc1-95b7-3ddff1c6c570)
+
+  ![P_6 only charts_page-0002](https://github.com/esmdsuhail/Portfolio/assets/142283402/cca70d59-c8af-4a26-809e-db29f4ddda4e)
+
 - This project concluded Using exploratory data analysis(EDA) offering insights into loan defaults and improving the company's loan approval processes.
+
+
+ ## [Automobile industry analysis](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability.git)
+- The project analyzes the impact of car features on price and profitability which optimizes the product development decision for manufacturers.
+- The dataset Car_data.csv from Kaggle, was cleaned and imputed with required data and techniques like applied regression analysis, optimization, and time series analysis used for in-depth insights.
+- To demonstrate this comprehensive analysis an interactive dashboard is created.
+
+  ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/9f6c0ef3-509b-45d1-913e-103910762726)
+
+
+## [Call Volume Trend Analysis](https://github.com/esmdsuhail/Call-Volume-Trend-Analysis.git)
+- This project showcases the analysis of call volume data, focusing on optimizing customer experience and operational efficiency.
+- Utilizing the dataset, cleaning, and restructuring analysis was performed on tasks like average call duration & total calls by time_bucket and also proposing manpower planning to 
+  reduce the abandon rate & for the night shift.
+- The ability to propose a plan offering practical solutions for manpower planning from analysis and derived insights enhances customer satisfaction at ABC Insurance Company.
+
+  ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/9ff698a7-c6b1-410f-bcd2-c7e4e3e6cb32)
+
 
 
 
