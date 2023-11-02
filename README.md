@@ -37,7 +37,7 @@
 - This project concluded Using exploratory data analysis(EDA) offering insights into loan defaults and improving the company's loan approval processes.
 
 
- ## [Automobile industry analysis](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability.git)
+## [Automobile industry analysis](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability.git)
 - The project analyzes the impact of car features on price and profitability which optimizes the product development decision for manufacturers.
 - The dataset Car_data.csv from Kaggle, was cleaned and imputed with required data and techniques like applied regression analysis, optimization, and time series analysis used for in-depth insights.
 - To demonstrate this comprehensive analysis an interactive dashboard is created.
