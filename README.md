@@ -1,58 +1,98 @@
-# Portfolio
+# Data Analytics Portfolio — Mohammed Suhail (E S Md Suhail)
 
+A collection of data analysis, machine learning, and SQL projects spanning EDA, predictive modeling, statistical analysis, and applied AI — built through a professional internship, a PGDM in Data Science & Management, and independent practice.
 
-## [Bank Loan Case Study](https://github.com/esmdsuhail/Bank-Loan-Case-Study.git)
-- As a data analyst in a finance company, I analyzed the loan application data to address challenges related to customer loan defaults.
-- Before performing the analysis, the dataset was cleaned and restructured by imputing missing data, deleting columns with significant missing data and also detecting outliers & data imbalances later, performing variance and correlation analysis among the data.
+![SQL](https://img.shields.io/badge/SQL-MySQL-4479A1?logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-scikit--learn%20%7C%20pandas-3776AB?logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-Statistical%20Computing-276DC3?logo=r&logoColor=white)
+![Excel](https://img.shields.io/badge/MS%20Excel-Data%20Analysis-217346?logo=microsoftexcel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboards-E97627?logo=tableau&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-Zero--Shot%20LLM-8A2BE2)
 
-  ![P_6 only charts_page-0001](https://github.com/esmdsuhail/Portfolio/assets/142283402/536d4f98-f83d-4dc1-95b7-3ddff1c6c570)
+<!-- Optional: a short personal intro. Edit or remove this block. -->
+> I'm a GIS and LiDAR professional transitioning into data analytics, backed by a PGDM in Data Science & Management from Great Lakes Institute of Management. This portfolio brings together applied projects across SQL, Python, R, and Excel/Tableau — from an internship-style operations analytics case study to end-term machine learning and statistics coursework, plus independent SQL practice.
 
-  ![P_6 only charts_page-0002](https://github.com/esmdsuhail/Portfolio/assets/142283402/cca70d59-c8af-4a26-809e-db29f4ddda4e)
+---
 
-- This project concluded using exploratory data analysis(EDA), offering insights into loan defaults and improving the company's loan approval processes.
+## Table of Contents
+- [Machine Learning & Predictive Modeling](#machine-learning--predictive-modeling)
+- [Statistical Analysis](#statistical-analysis)
+- [SQL & Database Analytics](#sql--database-analytics)
+- [Business Intelligence & Exploratory Data Analysis](#business-intelligence--exploratory-data-analysis)
+- [AI & Prompt Engineering](#ai--prompt-engineering)
+- [Continuous Learning](#continuous-learning)
 
+---
 
-## [Operation Analytics and Investigating Metric Spike](https://github.com/esmdsuhail/Operation-Metric-Analytics.git)
-- As a data analyst at a major company, I focus on investigating key metric changes for operational analysis
-- Two case studies were provided, which were loaded into MySQL for analysis, reporting, root cause analysis, and delivering actionable insights
+## Machine Learning & Predictive Modeling
 
-   ![Only charts_pages-to-jpg-0001](https://github.com/esmdsuhail/Portfolio/assets/142283402/880b21bc-f071-49b3-8cc0-363c450eb9b3)
-  
-  ![Only charts_pages-to-jpg-0002](https://github.com/esmdsuhail/Portfolio/assets/142283402/d1d07b96-41f7-426d-8301-0ceb86dd2b08)
+### [Predicting Personal Loan Acceptance for a Retail Bank](https://github.com/esmdsuhail/Predicting-Personal-Loan-Acceptance-for-a-Retail-Bank)
+Comparing Logistic Regression and Decision Tree models to predict which bank customers are likely to accept a personal loan offer, for a targeted marketing use case.
+- **Highlight:** Decision Tree reached 98.47% accuracy and 93% recall on the minority (loan-acceptor) class, outperforming Logistic Regression (83% accuracy, 0.877 ROC AUC) — with the reasoning for *why* documented, not just the numbers.
+- **Tools:** Python (pandas, scikit-learn)
 
-- This project demonstrates the application of advanced SQL skills, which enhances operational efficiency.
+### [Marathon Talent Framework & Crime Pattern Cluster Analysis](https://github.com/esmdsuhail/Marathon-Talent-Crime-Cluster-Analysis)
+A scalable data-collection framework for scouting Olympic marathon talent, paired with a full K-Means cluster analysis on 56,000+ real crime incident records to uncover time/place/crime-type relationships.
+- **Highlight:** worked around a memory-allocation failure in the standard cluster-validation library by building a manual elbow-method loop — a real engineering workaround, not just a textbook analysis.
+- **Tools:** R (dplyr, ggplot2, factoextra)
 
+## Statistical Analysis
 
-## [Instagram User Analytics](https://github.com/esmdsuhail/Instagram-User-Analytics.git)
-- A comprehensive overview of this project  emphasizes the role of data in shaping the user experience and driving effective marketing strategies.
-- Data analysis is done on specific tasks like identifying the oldest users, inactive users & bots, the Top 5 most used hashtags, the Winner of the photo contest, finding the best day to launch a campaign, and average user posts.
-- This project showcases my basic MySQL skills in understanding the data and performing the required analysis to summarize key findings and emphasize actionable insights.
+### [Advertising Media Sales Regression Analysis](https://github.com/esmdsuhail/Advertising-Sales-Regression-Analysis)
+Simple and multiple linear regression on 200 markets' TV/radio/newspaper ad spend to determine which media actually drive sales, plus outlier detection and a data-backed budget allocation strategy.
+- **Highlight:** newspaper spend looked like a significant sales driver on its own, but lost all statistical significance once TV and radio were controlled for in the multiple regression — a clean, real example of a confounding variable.
+- **Tools:** Excel (Data Analysis ToolPak)
 
+## SQL & Database Analytics
 
-## [IMDB Movie Analysis](https://github.com/esmdsuhail/IMDB-Movie-Analysis.git)
-- In this project, I explored the dataset to understand factors contributing to the movie’s success, which is determined by ratings
-- The dataset was cleaned and restructured for analysis, including genre, duration, language, director, and budget & gross earnings analysis
-- A dashboard is created to provide actionable insights for the stakeholders, which highlights the importance of understanding the relationship between factors and IMDB score for making informed decisions in future projects
+### [Operation Metric Analytics](https://github.com/esmdsuhail/Operation-Metric-Analytics)
+Advanced SQL analysis of a tech company's operational metrics — job throughput, weekly user engagement, cohort retention, and email engagement — using CTEs and window functions to investigate a metric spike.
+- **Highlight:** traced the same week-35 engagement drop across three independent queries (engagement, retention, email), building a coherent root-cause story instead of three disconnected numbers.
+- **Tools:** MySQL
 
-   ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/5fd22415-b37f-4a02-99cb-72b934c84557)
+### [Instagram User Analytics](https://github.com/esmdsuhail/Instagram-User-Analytics-SQL)
+SQL analysis of Instagram user activity — identifying bot accounts, inactive users, top hashtags, and the best day to launch an ad campaign — for product, marketing, and investor stakeholders.
+- **Highlight:** benchmark platform-wide activity at 3.47 posts/user, and a pattern-based (not just volume-based) approach to bot detection.
+- **Tools:** MySQL
 
+## Business Intelligence & Exploratory Data Analysis
 
-## [Automobile Industry Analysis](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability.git)
-- The project analyzes the impact of car features on price and profitability, which optimizes the product development decision for manufacturers.
-- The dataset Car_data.csv from Kaggle was cleaned and imputed with required data and techniques, such as applied regression analysis, optimization, and time series analysis, used for in-depth insights.
-- To demonstrate this comprehensive analysis, an interactive dashboard is created.
+### [Bank Loan Default Risk — EDA](https://github.com/esmdsuhail/Bank-Loan-Default-Risk-EDA)
+Exploratory Data Analysis on loan application data to identify default-risk patterns without wrongly rejecting credit-worthy applicants.
+- **Highlight:** identified a ~1:11 class imbalance between defaulters and non-defaulters, and found the correlation patterns driving default differ meaningfully by customer segment.
+- **Tools:** Excel, Tableau
 
-  ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/9f6c0ef3-509b-45d1-913e-103910762726)
+### [Call Volume Trend Analysis](https://github.com/esmdsuhail/Call-Volume-Trend-Analysis)
+Workforce planning analysis for an insurance contact center — sizing staff by hourly time bucket, including a dedicated night-shift plan, to bring the call abandon rate down to a 10% target.
+- **Highlight:** baseline abandon rate was ~29% before the plan — the time-bucketed staffing model targets a specific, defensible fix.
+- **Tools:** Excel, Tableau
 
+### [Impact of Car Features on Price & Profitability](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability)
+Regression and segmentation analysis of what drives car pricing and consumer demand — engine specs, brand, body style, and fuel efficiency — for a manufacturer's product strategy.
+- **Highlight:** engine horsepower and cylinder count are the strongest price predictors, confirmed by both trend charts and regression analysis.
+- **Tools:** Excel, Tableau
 
-## [Call Volume Trend Analysis](https://github.com/esmdsuhail/Call-Volume-Trend-Analysis.git)
-- This project showcases the analysis of call volume data, focusing on optimizing customer experience and operational efficiency.
-- Utilizing the dataset, cleaning, and restructuring analysis was performed on tasks like average call duration & total calls by time_bucket and also proposing manpower planning to 
-  reduce the abandon rate & for the night shift.
-- The ability to propose a plan offering practical solutions for manpower planning from analysis and derived insights enhances customer satisfaction at ABC Insurance Company.
+### [IMDB Movie Analysis](https://github.com/esmdsuhail/IMDB-Movie-Analysis)
+Descriptive statistics and correlation analysis of what drives a movie's IMDB rating — genre, duration, language, director, and budget.
+- **Highlight:** the most-produced genres (drama, action) aren't the highest-rated ones (romance, sci-fi) — a clear popularity-vs-quality divergence.
+- **Tools:** Excel, Tableau
 
-  ![Dashboard](https://github.com/esmdsuhail/Portfolio/assets/142283402/9ff698a7-c6b1-410f-bcd2-c7e4e3e6cb32)
+## AI & Prompt Engineering
 
+### [AI Assistants for Strategic Analysis & Sales Intelligence](https://github.com/esmdsuhail/AI-Assistants-for-Strategic-Analysis-Sales-Intelligence)
+Two zero-shot, prompt-engineered AI assistants: one generates a SWOT analysis from a company report with mandatory evidence citations, one turns a raw multinational sales dataset into a full management report.
+- **Highlight:** both prompts are reusable templates — an explicit data dictionary resolves ambiguity in the raw sales data (e.g., a stated profit-margin assumption) before analysis even starts, so every output number has a traceable methodology.
+- **Tools:** Zero-shot prompt engineering, LLM
 
+## Continuous Learning
 
+### [IDC 21-Day SQL Challenge](https://github.com/esmdsuhail/IDC-21-Days-SQL-Challenge-)
+21 consecutive days of SQL practice with [Indian Data Club](https://www.indiandataclub.com/) — fundamentals through window functions and CTEs — plus a multi-phase Pizza Sales analysis and a 5-table SQL "detective case" capstone that reconstructs an investigation using nothing but joins and subqueries.
+- **Tools:** MySQL
 
+---
+
+## Connect
+
+- LinkedIn: `[add your LinkedIn URL]`
+- Email: `[add your email]`
