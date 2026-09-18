@@ -16,7 +16,6 @@ A collection of data analysis, machine learning, and SQL projects spanning EDA, 
 
 ## Table of Contents
 - [Machine Learning & Predictive Modeling](#machine-learning--predictive-modeling)
-- [Statistical Analysis](#statistical-analysis)
 - [SQL & Database Analytics](#sql--database-analytics)
 - [Business Intelligence & Exploratory Data Analysis](#business-intelligence--exploratory-data-analysis)
 - [AI & Prompt Engineering](#ai--prompt-engineering)
@@ -36,13 +35,6 @@ A scalable data-collection framework for scouting Olympic marathon talent, paire
 - **Highlight:** worked around a memory-allocation failure in the standard cluster-validation library by building a manual elbow-method loop — a real engineering workaround, not just a textbook analysis.
 - **Tools:** R (dplyr, ggplot2, factoextra)
 
-## Statistical Analysis
-
-### [Advertising Media Sales Regression Analysis](https://github.com/esmdsuhail/Advertising-Sales-Regression-Analysis)
-Simple and multiple linear regression on 200 markets' TV/radio/newspaper ad spend to determine which media actually drive sales, plus outlier detection and a data-backed budget allocation strategy.
-- **Highlight:** newspaper spend looked like a significant sales driver on its own, but lost all statistical significance once TV and radio were controlled for in the multiple regression — a clean, real example of a confounding variable.
-- **Tools:** Excel (Data Analysis ToolPak)
-
 ## SQL & Database Analytics
 
 ### [Operation Metric Analytics](https://github.com/esmdsuhail/Operation-Metric-Analytics)
@@ -57,11 +49,6 @@ SQL analysis of Instagram user activity — identifying bot accounts, inactive u
 
 ## Business Intelligence & Exploratory Data Analysis
 
-### [Bank Loan Default Risk — EDA](https://github.com/esmdsuhail/Bank-Loan-Default-Risk-EDA)
-Exploratory Data Analysis on loan application data to identify default-risk patterns without wrongly rejecting credit-worthy applicants.
-- **Highlight:** identified a ~1:11 class imbalance between defaulters and non-defaulters, and found the correlation patterns driving default differ meaningfully by customer segment.
-- **Tools:** Excel, Tableau
-
 ### [Call Volume Trend Analysis](https://github.com/esmdsuhail/Call-Volume-Trend-Analysis)
 Workforce planning analysis for an insurance contact center — sizing staff by hourly time bucket, including a dedicated night-shift plan, to bring the call abandon rate down to a 10% target.
 - **Highlight:** baseline abandon rate was ~29% before the plan — the time-bucketed staffing model targets a specific, defensible fix.
@@ -70,11 +57,6 @@ Workforce planning analysis for an insurance contact center — sizing staff by 
 ### [Impact of Car Features on Price & Profitability](https://github.com/esmdsuhail/Impact-of-Car-Features-on-Price-and-Profitability)
 Regression and segmentation analysis of what drives car pricing and consumer demand — engine specs, brand, body style, and fuel efficiency — for a manufacturer's product strategy.
 - **Highlight:** engine horsepower and cylinder count are the strongest price predictors, confirmed by both trend charts and regression analysis.
-- **Tools:** Excel, Tableau
-
-### [IMDB Movie Analysis](https://github.com/esmdsuhail/IMDB-Movie-Analysis)
-Descriptive statistics and correlation analysis of what drives a movie's IMDB rating — genre, duration, language, director, and budget.
-- **Highlight:** the most-produced genres (drama, action) aren't the highest-rated ones (romance, sci-fi) — a clear popularity-vs-quality divergence.
 - **Tools:** Excel, Tableau
 
 ## AI & Prompt Engineering
