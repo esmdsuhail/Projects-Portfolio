@@ -16,6 +16,7 @@ A collection of data analysis, machine learning, and SQL projects spanning EDA, 
 
 ## Table of Contents
 - [Machine Learning & Predictive Modeling](#machine-learning--predictive-modeling)
+- [Optimization & Decision Analytics](#optimization--decision-analytics)
 - [SQL & Database Analytics](#sql--database-analytics)
 - [Business Intelligence & Exploratory Data Analysis](#business-intelligence--exploratory-data-analysis)
 - [AI & Prompt Engineering](#ai--prompt-engineering)
@@ -33,7 +34,16 @@ Comparing Logistic Regression and Decision Tree models to predict which bank cus
 ### [Marathon Talent Framework & Crime Pattern Cluster Analysis](https://github.com/esmdsuhail/Marathon-Talent-Crime-Cluster-Analysis)
 A scalable data-collection framework for scouting Olympic marathon talent, paired with a full K-Means cluster analysis on 56,000+ real crime incident records to uncover time/place/crime-type relationships.
 - **Highlight:** worked around a memory-allocation failure in the standard cluster-validation library by building a manual elbow-method loop — a real engineering workaround, not just a textbook analysis.
+- **Also included:** a logistic regression model on a retail banking dataset estimating customer churn — calculating the churn rate for male customers over 40 in Germany — applying the same statistical toolkit across three unrelated domains (sports scouting, public safety, banking).
 - **Tools:** R (dplyr, ggplot2, factoextra)
+
+## Optimization & Decision Analytics
+
+### Optimization-Based Decision Making for Business Operations
+Linear programming models built for three distinct business problems — TrailBlaze Motors' dirt bike production planning, Redwood Timber's transportation network, and Bharat Oil's fuel blending — incorporating real-world constraints such as production limits and transportation costs.
+- **Highlight:** produced cost-effective, constraint-satisfying strategies across three structurally different problem types (production, transportation, blending), showing the method generalizes rather than being a single one-off textbook LP exercise.
+- **Tools:** Linear Programming / Optimization Modeling
+- *(Repo link coming soon)*
 
 ## SQL & Database Analytics
 
