@@ -75,6 +75,4 @@ Two zero-shot, prompt-engineered AI assistants: one generates a SWOT analysis fr
 ---
 
 ## Connect
-
-- LinkedIn: `[add your LinkedIn URL]`
-- Email: `[add your email]`
+- Email: `esmdsuhail@gmail.com`
